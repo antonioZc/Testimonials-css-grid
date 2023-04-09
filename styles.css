@@ -21,7 +21,12 @@
 }
 
 body{
-    font-family: 'Barlow Semi Condensed', sans-serif;
+     font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .main{
@@ -54,6 +59,7 @@ body{
     --border-person: 3.5px solid #ffffff;
     --color-texts1:  hsl(217, 19%, 35%); 
     --color-texts2:  hsla(0, 3%, 37%, 0.722) ;
+      background-color: white;
 }
 
 .card--4{
